@@ -37,10 +37,6 @@ nav a {
   align-items: center;
 }
 
-nav a img {
-  border: 1px #aa93ef solid;
-}
-
 nav a strong {
   color: #aa93ef;
   font-family: Poppins;
@@ -147,7 +143,7 @@ section p {
 button {
   color: #fff;
   text-transform: uppercase;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
 
   background: #aa93ef;
   border: none;
