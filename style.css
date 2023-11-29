@@ -1,22 +1,23 @@
-/* Primeiramente gosto de resetar as configs de CSS padrao dos navegadores */
+/* Primeiramente faço o reset das configurações de CSS padrão dos navegadores */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
 
+  /* Para uma melhor visualização das fontes em navegadores como Mozilla, Chrome e Edge */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Alem de aplicar a fonte principal para todo o documento, gosto de configurar font-size para 62.5%, sendo assim consigo utilizar o rem
-   de maneira mais facil, apenas divido o tamanho que quero por 10 e tenho o valor em rem. Utilizar rem ajuda na criacao de um site mais responsivo */
+/* Além de aplicar a fonte principal para todo o documento, gosto de configurar font-size para 62.5%, sendo assim, consigo utilizar o rem
+   de maneira mais facil, apenas divido o tamanho que quero por 10 e tenho o valor em rem. Utilizar rem ajuda na criação de um site mais responsivo */
 :root {
   font-family: "Open Sans", sans-serif;
   font-size: 62.5%;
 }
 
-/* Aqui monto o gradiente do background usando a paleta de cores que escolhi */
+/* Aqui monto o gradiente do background usando a paleta de cores do layout do site */
 body {
   background: linear-gradient(
     180deg,
@@ -27,6 +28,7 @@ body {
   min-height: 100vh;
 }
 
+/* Estilização e posicionamento das tags semânticas */
 .page {
   max-width: 100rem;
   margin: 0 auto;
@@ -71,8 +73,8 @@ ul {
   padding: 0;
 }
 
-/* O menu dropdown foi feito diretamente no html e css
-   acho mais facil fazer assim do que usar o bootstrap */
+/* O menu dropdown foi feito diretamente no HTML e CSS
+   tentei utilizar o bootstrap mas acho que dificulta a estilização */
 li a,
 .dropbtn {
   display: inline-block;
@@ -188,7 +190,7 @@ footer span {
   font-weight: 700;
 }
 
-/* Aqui eu crio estilos específicos para telas menores e tento tornar o site mais responsivo */
+/* Usando media queries para criação de estilos específicos para telas menores e tento tornar o site mais responsivo */
 @media (max-width: 768px) {
   body {
     padding: 2rem;
@@ -301,8 +303,7 @@ footer span {
   }
 }
 
-/* Estilos para a página de Serviços */
-
+/* Estilização da página de Serviços */
 main {
   justify-content: center;
 }
@@ -315,6 +316,13 @@ main section {
   align-items: center;
   text-align: center;
   gap: 5rem;
+}
+
+.signup-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 form {
@@ -360,7 +368,7 @@ button:hover {
   background-color: #aa93ef;
 }
 
-/* Pagina de produtos */
+/* Grid de produtos, estilizaão simples dos mesmos para exibiçao */
 .product-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
