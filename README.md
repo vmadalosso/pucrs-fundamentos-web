@@ -44,7 +44,7 @@ https://vmadalosso.github.io/pucrs-fundamentos-web/
 Para acessar os arquivos localmente:
 
 ```
-$ git clone https://github.com/vmadalosso/pucrs-fundamentos-web.git
+git clone https://github.com/vmadalosso/pucrs-fundamentos-web.git
 ```
 
 ## 📝 Licença
