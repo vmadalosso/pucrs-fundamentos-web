@@ -241,68 +241,6 @@ footer span {
   }
 }
 
-/* Aqui eu crio estilos específicos para telas menores e tento tornar o site mais responsivo */
-@media (max-width: 768px) {
-  body {
-    padding: 2rem;
-  }
-
-  nav {
-    flex-direction: column;
-    margin-bottom: 3rem;
-  }
-
-  ul {
-    flex-direction: column;
-    gap: 2rem;
-  }
-
-  li a,
-  .dropbtn {
-    padding: 1rem;
-  }
-
-  .dropdown-content {
-    min-width: 100%;
-  }
-
-  main {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  h1 {
-    width: 100%;
-    font-size: 3rem;
-    line-height: 4rem;
-  }
-
-  p {
-    width: 100%;
-    font-size: 1.2rem;
-    line-height: 2rem;
-  }
-
-  form {
-    width: 100%;
-  }
-
-  label,
-  input,
-  select {
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-
-  button {
-    padding: 1rem 2rem 1.1rem;
-  }
-
-  footer {
-    margin-top: 4rem;
-  }
-}
-
 /* Estilização da página de Serviços */
 main {
   justify-content: center;
@@ -409,4 +347,66 @@ button:hover {
   display: flex;
   justify-content: center;
   margin-top: 0.5rem;
+}
+
+/* Aqui eu crio estilos específicos para telas menores e tento tornar o site mais responsivo */
+@media (max-width: 768px) {
+  body {
+    padding: 2rem;
+  }
+
+  nav {
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+
+  ul {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  li a,
+  .dropbtn {
+    padding: 1rem;
+  }
+
+  .dropdown-content {
+    min-width: 100%;
+  }
+
+  main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  h1 {
+    width: 100%;
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  p {
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  label,
+  input,
+  select {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  button {
+    padding: 1rem 2rem 1.1rem;
+  }
+
+  footer {
+    margin-top: 4rem;
+  }
 }
