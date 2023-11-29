@@ -41,10 +41,10 @@ A plataforma online é um sistema web de comércio de produtos e serviços para 
 Para visualizar o projeto basta acessar:
 https://vmadalosso.github.io/pucrs-fundamentos-web/
 
-Para acessar os arquivos localmente:
+Para baixar os arquivos localmente:
 
 ```
-$ git clone https://github.com/vmadalosso/pucrs-fundamentos-web.git
+git clone https://github.com/vmadalosso/pucrs-fundamentos-web.git
 ```
 
 ## 📝 Licença
