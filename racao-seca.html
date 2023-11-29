@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
-    <!-- Primeiramente, aqui no header eu utilizo duas fontes do Google Fontes (Open Sans e Poppins) por isso as chamadas aqui no header -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PetShop | Home</title>
+    <title>PetShop | Produtos</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Poppins:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <!-- Aqui faço a conexão da minha pagina de style.css e meus scripts.js -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Utilizo tags semânticas para manter boas práticas de HTML e melhor organização do meu CSS -->
     <div class="page">
       <nav>
         <a href="#"
@@ -39,34 +36,56 @@
           </li>
         </ul>
       </nav>
-      <!-- Os layouts hoje em dia utilizam mais flexbox, por isso decidi montar a home dessa forma, imagem e textos com display: flex -->
       <main>
-        <section>
-          <h1>Produtos <span>exclusivos</span> para seu Pet!</h1>
-          <p>
-            Encontre os melhores produtos e serviços de<strong>
-              altíssima qualidade</strong
-            >.
-            <br />
-            Invista para que seu pet tenha muito mais
-            <strong>qualidade de vida</strong>.
-          </p>
+        <section class="product-list">
+          <!-- Produto 1 -->
+          <div class="product">
+            <img src="assets/product1.jpeg" alt="Produto 1" />
+            <h2>Ração Seca Fresh Meat</h2>
+            <p>Alimentação diária para cães adultos de portes mini e pequeno</p>
+            <span>R$ 19,99</span>
+            <div class="button-comprar">
+              <button>Comprar</button>
+            </div>
+          </div>
 
-          <a href="cadastro.html">
-            <button>Cadastre-se</button>
-          </a>
+          <!-- Produto 2 -->
+          <div class="product">
+            <img src="assets/product2.jpeg" alt="Produto 2" />
+            <h2>Ração Seca Fresh Meat</h2>
+            <p>Alimentação diária para cães adultos de portes mini e pequeno</p>
+            <span>R$ 29,99</span>
+            <div class="button-comprar">
+              <button>Comprar</button>
+            </div>
+          </div>
+
+          <!-- Produto 3 -->
+          <div class="product">
+            <img src="assets/product3.jpeg" alt="Produto 3" />
+            <h2>Ração Seca Fresh Meat</h2>
+            <p>Alimentação diária para cães adultos de portes mini e pequeno</p>
+            <span>R$ 39,99</span>
+            <div class="button-comprar">
+              <button>Comprar</button>
+            </div>
+          </div>
+
+          <!-- Produto 4 -->
+          <div class="product">
+            <img src="assets/product4.jpeg" alt="Produto 4" />
+            <h2>Ração Seca Fresh Meat</h2>
+            <p>Alimentação diária para cães adultos de portes mini e pequeno</p>
+            <span>R$ 49,99</span>
+            <div class="button-comprar">
+              <button>Comprar</button>
+            </div>
+          </div>
         </section>
-        <img
-          src="assets/img.png"
-          alt="Desenho animado de um cachorrinho feliz"
-        />
       </main>
-
       <footer>
         Projeto Fundamentos de Sistemas Web - <span>PUCRS</span> | Feito com
         <strong>♥ e pressa</strong> by <span>Vitor Madalosso</span>
-        <br />
-        Copyright © 2023 All rights reserved.
       </footer>
     </div>
   </body>
